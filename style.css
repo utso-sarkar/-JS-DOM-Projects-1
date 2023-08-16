@@ -1,0 +1,23 @@
+#Change-color{
+    height: 120px;
+    width: 250px;
+    font-size: 25px;
+    background-color: coral;
+    border-radius: 50px;
+    color: rgb(254, 248, 248);
+    border:none;
+    /* margin-left: 550px; */
+    text-align: center;
+    
+}
+#Change-color:hover{
+    background-color: rgb(132, 37, 221);
+    color: aliceblue;
+    border-radius: 50px;
+    border:none;
+}
+.text-info{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    text-align: center;
+}
