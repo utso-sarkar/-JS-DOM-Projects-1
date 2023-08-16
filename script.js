@@ -1,14 +1,14 @@
 // create on load hand
 
-window.onload= () = {
+window.onload= ()=> {
     main();
 };
 function main(){
-    const root =document.getElementById("root");
-    const btn =document.getElementById("Change-color");
+    const root =document.getElementById('root');
+    const btn =document.getElementById('Change-color');
     btn.addEventListener('click',function(){
-        const bcolor =generateRgbColor();
-        root.style.backgroundColor= bcolor;
+        const colorChange =generateRgbColor();
+        root.style.backgroundColor= colorChange;
     });
 
 }
